@@ -10,6 +10,7 @@
         </div>
 
         <div class="col-12 d-flex flex-row justify-content-center align-items-center flex-wrap">
+
             <div id="container-overlay" class="position-relative col-10 col-sm-7 col-md-5 col-lg-3 m-4 d-flex justify-content-center align-items-center">
                 <div id="overlay" class="p-2 position-absolute d-flex flex-column justify-content-center align-items-center col-10 col-sm-7 col-md-5 col-lg-3">
                     <span class="text-white fs-5">Varanda gourmet</span>
@@ -32,6 +33,12 @@
             </div>  
            
         </div> 
+
+        <div class="col-12 mt-5 d-flex justify-content-center align-itens-center text-decoration-none">            
+            <router-link id="see-all-projects" to="/projects" class="col-9 text-center text-md-end">      
+                Veja todos os nossos projetos           
+            </router-link>             
+        </div>
         
     </section>  
     
@@ -59,6 +66,16 @@ export default {
 <style scoped>     
     #most-recent {
         background-color: var(--color-7);
+    }
+
+    #see-all-projects {
+        color: var(--color-8);
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #see-all-projects:hover {
+        color: var(--color-1); 
     }
 
     #overlay {     

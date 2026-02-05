@@ -74,10 +74,6 @@ export default {
   color: #000;
  } 
 
- h1, h2, h3, h4 {  
-  font-family: 'Raleway', sans-serif;
- }
-
  :root {
   --color-1:#71744a; 
   --color-2:#e2d5c4; 
@@ -86,7 +82,16 @@ export default {
   --color-5:#EDE1D2; 
   --color-6: #B0C39D;
   --color-7: #fff;
+  --color-8: #141414;
 }
+
+ h1, h2, h3, h4 {  
+  font-family: 'Raleway', sans-serif;
+ }
+
+ p {
+  color: var(--color-8);
+ }
 
 ::-webkit-scrollbar {
   width: 12px;

@@ -78,16 +78,16 @@ methods: {
   setModalContent(type) {
     const contentMap = {
       arquitetonico: {
-        title: 'Projetos Arquitetônicos',
-        description: 'Desenvolvimento de projetos completos, do conceito à execução.'
+        title: 'PROJETO DE ARQUITETÔNICO',
+        description: 'Projeto de arquitetura detalhado para construção ou reforma de espaços.'
       },
       interiores: {
-        title: 'Arquitetura de Interiores',
-        description: 'Planejamento de ambientes funcionais, estéticos e personalizados.'
+        title: 'PROJETO DE INTERIORES',
+        description: 'Projeto de interiores detalhado pensando no design dos espaços internos.'
       },
       consultorias: {
-        title: 'Consultorias',
-        description: 'Orientação técnica e estratégica para decisões arquitetônicas.'
+        title: 'CONSULTORIAS',
+        description: 'Orientação e aconselhamento para ambientes sem obras e sem detalhamento de projeto.'
       }
     }
 

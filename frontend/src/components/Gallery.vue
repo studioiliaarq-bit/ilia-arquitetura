@@ -135,8 +135,7 @@ export default {
   },
   mounted() {
     this.createProjects();    
-    this.handleShowMoreButton();
-    
+    this.handleShowMoreButton();     
   }
 }
 </script>

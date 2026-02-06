@@ -142,11 +142,28 @@ export default {
       }     
    
     },
+
+    handleKeydown(event) {
+      if (event.key === 'ArrowRight') {
+        this.nextImage();
+      }
+
+      if (event.key === 'ArrowLeft') {
+        this.backImage();
+      }
+
+      if (event.key === 'Escape') {
+        this.closeModal();
+      }
+    },
   },
 
   mounted() {
-
-  }
+    window.addEventListener('keydown', this.handleKeydown);
+  },
+  beforeUnmount() {
+    window.removeEventListener('keydown', this.handleKeydown);
+  },
 }
 </script>
 

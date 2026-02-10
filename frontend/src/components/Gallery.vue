@@ -1,6 +1,6 @@
 <template>
 
-  <section class="mt-5 col-12 pt-5 pb-5 d-flex flex-column justify-content-center align-items-center">  
+  <section id="projects-container" class="mt-5 col-12 pt-5 pb-5 d-flex flex-column justify-content-center align-items-center">  
     
     <h2 class="fs-2 mt-5 pt-5">Projetos</h2>  
 
@@ -131,11 +131,16 @@ export default {
       document.head.appendChild(style);       
 
     },
+    scrollToTop() {
+      const top = document.querySelector('#projects-container')
+      top.scrollIntoView({ behavior: 'smooth' });   
+    },
     
   },
   mounted() {
     this.createProjects();    
-    this.handleShowMoreButton();     
+    this.handleShowMoreButton();  
+    this.scrollToTop();   
   }
 }
 </script>

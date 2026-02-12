@@ -1,5 +1,6 @@
 <template>
-  <div id="Form">   
+  <div id="Form">  
+    <ImageTransitionContainer /> 
     <Form /> 
     <Contacts />    
     <Footer />
@@ -9,7 +10,7 @@
 
 <script>
 
- 
+import ImageTransitionContainer from '@/components/ImageTransitionContainer.vue'; 
 import Form from '@/components/Form.vue';
 import Contacts from '@/components/Contacts.vue';
 import Footer from '@/components/Footer.vue';
@@ -19,7 +20,8 @@ import Footer from '@/components/Footer.vue';
 
   export default {
     name: 'FormView',
-    components: {    
+    components: {
+      ImageTransitionContainer,    
       Form,
       Contacts,
       Footer, 

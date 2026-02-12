@@ -209,6 +209,7 @@ export default {
 
 .btn-enabled:hover {
   background-color: var(--color-3);
+  border: solid 2px var(--color-3);
   transition: 1s;  
 }
 

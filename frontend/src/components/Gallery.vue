@@ -67,29 +67,69 @@ export default {
           name: 'Varanda Gourmet',
           description: '',
           thumbnail: require('@/assets/varanda-gourmet/capa.webp'),
-          imagesDay: [require('@/assets/varanda-gourmet/1.webp'), require('@/assets/varanda-gourmet/2.webp'), require('@/assets/varanda-gourmet/3.webp')],
-          imagesNight: [require('@/assets/varanda-gourmet/1.webp'), require('@/assets/varanda-gourmet/2.webp'), require('@/assets/varanda-gourmet/3.webp')],
+          imagesDay: [
+            require('@/assets/varanda-gourmet/1.webp'),
+            require('@/assets/varanda-gourmet/2.webp'),
+            require('@/assets/varanda-gourmet/3.webp')
+          ],
+          imagesNight: [
+            require('@/assets/varanda-gourmet/1.webp'),
+            require('@/assets/varanda-gourmet/2.webp'),
+            require('@/assets/varanda-gourmet/3.webp')
+          ],
         },
         {
           name: 'Banheiro oliva',
           description: '',
           thumbnail: require('@/assets/banheiro-oliva/capa.webp'),
-          imagesDay: [require('@/assets/banheiro-oliva/1.webp'), require('@/assets/banheiro-oliva/2.webp')],
-          imagesNight: [require('@/assets/banheiro-oliva/1-night.webp'), require('@/assets/banheiro-oliva/2.webp')],
+          imagesDay: [
+            require('@/assets/banheiro-oliva/1.webp'), 
+            require('@/assets/banheiro-oliva/2.webp')
+          ],
+          imagesNight: [
+            require('@/assets/banheiro-oliva/1-night.webp'), 
+            require('@/assets/banheiro-oliva/2.webp')
+          ],
         },
         {
           name: 'Quarto',
           description: '',
           thumbnail: require('@/assets/quarto/capa.webp'),
-          imagesDay: [require('@/assets/quarto/1-day.webp'), require('@/assets/quarto/2-day.webp'), require('@/assets/quarto/3.webp'), require('@/assets/quarto/4.webp')],
-          imagesNight: [require('@/assets/quarto/1-night.webp'), require('@/assets/quarto/2-night.webp'), require('@/assets/quarto/3.webp'), require('@/assets/quarto/4.webp')],
+          imagesDay: [
+            require('@/assets/quarto/1-day.webp'),
+            require('@/assets/quarto/2-day.webp'),
+            require('@/assets/quarto/3.webp'),
+            require('@/assets/quarto/4.webp'),
+            require('@/assets/quarto/5.webp'),
+            require('@/assets/quarto/6.webp'),
+            require('@/assets/quarto/7.webp'),
+            require('@/assets/quarto/8.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/quarto/1-night.webp'),
+            require('@/assets/quarto/2-night.webp'),
+            require('@/assets/quarto/3.webp'), 
+            require('@/assets/quarto/4.webp'),
+            require('@/assets/quarto/5.webp'),
+            require('@/assets/quarto/6.webp'),
+            require('@/assets/quarto/7.webp'),
+            require('@/assets/quarto/8.webp'),
+          ],
         },
         {
           name: 'Lavabo',
           description: '',
           thumbnail: require('@/assets/lavabo/capa.webp'),
-          imagesDay: [require('@/assets/lavabo/1.webp'), require('@/assets/lavabo/2.webp'), require('@/assets/lavabo/3.webp')],
-          imagesNight: [require('@/assets/lavabo/1.webp'), require('@/assets/lavabo/2.webp'), require('@/assets/lavabo/3.webp')],
+          imagesDay: [
+            require('@/assets/lavabo/1.webp'),
+            require('@/assets/lavabo/2.webp'),
+            require('@/assets/lavabo/3.webp')
+          ],
+          imagesNight: [
+            require('@/assets/lavabo/1.webp'), 
+            require('@/assets/lavabo/2.webp'), 
+            require('@/assets/lavabo/3.webp')
+          ],
         },
 
         
@@ -172,7 +212,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--color-3) !important;
+  background-color: var(--color-3) !important;  
   transition: 1s;      
 }
 

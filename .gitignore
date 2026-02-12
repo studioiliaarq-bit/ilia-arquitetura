@@ -3,7 +3,7 @@ frontend/node_modules
 frontend/dist
 backend/form/node_modules/
 frontend/.env
-backend/.env
+backend/form/.env
 
 
 # local env files

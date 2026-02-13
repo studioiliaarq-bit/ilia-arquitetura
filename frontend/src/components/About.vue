@@ -43,7 +43,7 @@
     },
     data() {
       return {
-        imgProfile: require('@/assets/profile-image-2.webp'),
+        imgProfile: require('@/assets/profile-image.webp'),
         logo_2: require('@/assets/logo-2.webp'),
       }
     },

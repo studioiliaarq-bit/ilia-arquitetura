@@ -86,13 +86,13 @@ export default {
   }
 
   #header img {
-    width: 150px;
+    width: 200px;
     height: auto;
   }  
 
   @media(max-width: 992px) {
     #header img {
-      width: 120px;
+      width: 150px;
       height: auto;
     }  
   }

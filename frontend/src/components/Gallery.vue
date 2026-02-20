@@ -63,19 +63,20 @@ export default {
     createProjects() {
 
       const projects = [
+
         {
-          name: 'Varanda Gourmet',
+          name: 'Lavabo',
           description: '',
-          thumbnail: require('@/assets/varanda-gourmet/capa.webp'),
+          thumbnail: require('@/assets/lavabo/capa.webp'),
           imagesDay: [
-            require('@/assets/varanda-gourmet/1.webp'),
-            require('@/assets/varanda-gourmet/2.webp'),
-            require('@/assets/varanda-gourmet/3.webp')
+            require('@/assets/lavabo/1.webp'),
+            require('@/assets/lavabo/2.webp'),
+            require('@/assets/lavabo/3.webp')
           ],
           imagesNight: [
-            require('@/assets/varanda-gourmet/1.webp'),
-            require('@/assets/varanda-gourmet/2.webp'),
-            require('@/assets/varanda-gourmet/3.webp')
+            require('@/assets/lavabo/1.webp'), 
+            require('@/assets/lavabo/2.webp'), 
+            require('@/assets/lavabo/3.webp')
           ],
         },
         {
@@ -117,24 +118,38 @@ export default {
           ],
         },
         {
-          name: 'Lavabo',
+          name: 'Varanda Gourmet',
           description: '',
-          thumbnail: require('@/assets/lavabo/capa.webp'),
+          thumbnail: require('@/assets/varanda-gourmet/capa.webp'),
           imagesDay: [
-            require('@/assets/lavabo/1.webp'),
-            require('@/assets/lavabo/2.webp'),
-            require('@/assets/lavabo/3.webp')
+            require('@/assets/varanda-gourmet/1.webp'),
+            require('@/assets/varanda-gourmet/2.webp'),
+            require('@/assets/varanda-gourmet/3.webp')
           ],
           imagesNight: [
-            require('@/assets/lavabo/1.webp'), 
-            require('@/assets/lavabo/2.webp'), 
-            require('@/assets/lavabo/3.webp')
+            require('@/assets/varanda-gourmet/1.webp'),
+            require('@/assets/varanda-gourmet/2.webp'),
+            require('@/assets/varanda-gourmet/3.webp')
+          ],
+        },
+        {
+          name: 'Casa Brisa',
+          description: '',
+          thumbnail: require('@/assets/casa-brisa/capa.webp'),
+          imagesDay: [
+            require('@/assets/casa-brisa/1.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/casa-brisa/1.webp'),
           ],
         },
 
+
         
       ];
-      
+
+      projects.reverse();
+
       this.totalProjects = projects.length;
       this.projects = projects;
       return projects
@@ -206,7 +221,6 @@ export default {
 
 button { 
   background-color: var(--color-1) !important;  
-  border: solid 2px var(--color-3) !important;
   height: 40px;
   width: 200px; 
 }

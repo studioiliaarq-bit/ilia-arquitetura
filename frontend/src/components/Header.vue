@@ -21,7 +21,7 @@
 import Nav from '@/components/Nav.vue'; 
 
 export default {
-  name: 'Header',     
+  name: 'Header',    
   components: {
     Nav, 
   },

@@ -19,8 +19,21 @@ export default {
   },
   data() {
     return {
-
+      whatsapp: 'https://api.whatsapp.com/send?phone=5582988777687',
+      instagram: 'https://www.instagram.com/studioilia.arq/',
+      tiktok: 'https://www.tiktok.com/@studioiliaarq',     
+      site: 'https://www.iliaarquitetura.com.br/', 
+      email: 'mailto:studioilia.arq@gmail.com?subject=Contato pelo site&body=Olá, gostaria de fazer um orçamento.',
     };
+  },
+  provide() {
+    return {
+      whatsappLink: () => this.whatsapp,
+      instagramLink: () => this.instagram,
+      tiktokLink: () => this.tiktok,
+      siteLink: () => this.site,
+      emailLink: () => this.email,
+    }
   },
   methods: {
     toggleScroll() {
@@ -32,8 +45,22 @@ export default {
         document.body.style.overflow = '';
       }
     },
-    
-  }
+    checkDevice() {
+      const isMobile = window.innerWidth <= 768;
+
+      if (isMobile) {
+        this.whatsapp = 'https://wa.me/qr/NJTH46CBHBJFN1';
+      }
+    }
+  },
+  mounted() {
+    this.checkDevice();
+    window.addEventListener("resize", this.checkDevice);
+  },
+
+  beforeUnmount() {
+    window.removeEventListener("resize", this.checkDevice);
+  },
 }
 </script>
 

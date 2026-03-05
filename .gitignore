@@ -2,7 +2,6 @@
 frontend/node_modules
 frontend/dist
 backend/form/node_modules/
-frontend/.env
 backend/form/.env
 
 

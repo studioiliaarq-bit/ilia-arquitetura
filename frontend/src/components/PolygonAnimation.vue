@@ -1,5 +1,5 @@
 <template>     
-      <div ref="polygonEl" class="polygon">
+      <div ref="polygonEl" class="polygon mt-5">
         <img src="../assets/logo.webp" alt="image-logo">  
       </div>      
 </template> 

@@ -268,6 +268,22 @@ export default {
             require('@/assets/fachada/4-night.webp'),
           ],
         },
+        {
+          name: 'Área gourmet',
+          description: '',
+          dayAndNight: false,
+          thumbnail: require('@/assets/area-gourmet/capa.webp'),
+          imagesDay: [
+            require('@/assets/area-gourmet/1.webp'),
+            require('@/assets/area-gourmet/2.webp'),
+            require('@/assets/area-gourmet/3.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/area-gourmet/1.webp'),
+            require('@/assets/area-gourmet/2.webp'),
+            require('@/assets/area-gourmet/3.webp'),
+          ],
+        },
 
         
       ];

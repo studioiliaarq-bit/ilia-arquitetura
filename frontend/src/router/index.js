@@ -28,6 +28,13 @@ const routes = [
       return import('../views/LinksView.vue')
     }
   },
+    {
+    path: '/cupons',
+    name: 'cupons', 
+    component: function () {
+      return import('../views/CouponsView.vue')
+    }
+  },
 ]
 
 const router = createRouter({

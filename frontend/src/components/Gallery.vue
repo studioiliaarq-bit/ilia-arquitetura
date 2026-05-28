@@ -284,6 +284,34 @@ export default {
             require('@/assets/area-gourmet/3.webp'),
           ],
         },
+        {
+          name: 'Peônia',
+          description: '',
+          dayAndNight: false,
+          thumbnail: require('@/assets/peonia/capa.webp'),
+          imagesDay: [
+            require('@/assets/peonia/1.webp'),
+            require('@/assets/peonia/2.webp'),
+            require('@/assets/peonia/3.webp'),
+            require('@/assets/peonia/4.webp'),
+            require('@/assets/peonia/5.webp'),
+            require('@/assets/peonia/6.webp'),
+            require('@/assets/peonia/7.webp'),
+            require('@/assets/peonia/8.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/peonia/1.webp'),
+            require('@/assets/peonia/2.webp'),
+            require('@/assets/peonia/3.webp'),
+            require('@/assets/peonia/4.webp'),
+            require('@/assets/peonia/5.webp'),
+            require('@/assets/peonia/6.webp'),
+            require('@/assets/peonia/7.webp'),
+            require('@/assets/peonia/8.webp'),
+          ],
+        },
+
+
 
         
       ];

@@ -1,13 +1,13 @@
 <template>
 
-    <div id="container-links">
+    <div id="container-links" class="pt-5">
 
         <router-link id="link-1" to="/projetos">
           <button class="my-3">
             Portfólio
           </button>
         </router-link> 
-        <a :href="siteLink()" id="link-2" target="_blank" class="my-3">
+      <a :href="siteLink()" id="link-2" target="_blank" class="my-3">
           <button>
           Visite o nosso site
          </button>
@@ -16,7 +16,13 @@
           <button>
           Fale comigo
          </button>
-       </a>         
+       </a>  
+
+        <a :href="couponPagesLink()" id="link-4" target="_blank" class="my-3">
+          <button>
+          Cupons
+         </button>
+       </a>           
 
     </div> 
 
@@ -29,7 +35,7 @@ import PolygonAnimation from '@/components/PolygonAnimation.vue';
 
 export default {
   name: 'LinkThree',
-  inject: ['whatsappLink', 'instagramLink', 'tiktokLink', 'siteLink'], 
+  inject: ['whatsappLink', 'instagramLink', 'tiktokLink', 'siteLink', 'couponPagesLink'], 
   
   components: {    
     PolygonAnimation, 
@@ -89,7 +95,8 @@ export default {
 
 #link-1, 
 #link-2,
-#link-3 {
+#link-3,
+#link-4 {
   animation: opacity 0.5s ease-in;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -107,6 +114,10 @@ export default {
 
 #link-3 {
   animation-delay: 1.5s;
+}
+
+#link-4 {
+  animation-delay: 2s;
 }
 
 @keyframes opacity {

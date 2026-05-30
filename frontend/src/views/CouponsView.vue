@@ -40,6 +40,7 @@ export default {
   background-size: cover;  
   width: 100%;
   height: auto;
+  min-height: 100vh;
   position: absolute;
   top: 0;
   left: 0;

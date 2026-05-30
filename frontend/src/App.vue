@@ -26,7 +26,7 @@ export default {
       tiktok: 'https://www.tiktok.com/@studioiliaarq',     
       site: 'https://www.iliaarquitetura.com.br/', 
       email: 'mailto:studioilia.arq@gmail.com?subject=Contato pelo site&body=Olá, gostaria de fazer um orçamento.',
-      couponpages: 'https://www.iliaarquitetura.com.br/',
+      couponpages: 'https://www.iliaarquitetura.com.br/cupons',
     };
   },
   provide() {

@@ -75,7 +75,7 @@ export default {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 0 0 200px 0;
+  padding: 0 0 250px 0;
 }
 
 .card {

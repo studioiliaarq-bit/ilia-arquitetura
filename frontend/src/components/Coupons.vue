@@ -1,6 +1,6 @@
 <template>
   <div id="coupons">
-    
+    <span v-if="show">Cupom cópiado!</span>
     <div v-for="(item, index) in coupons" :key="index" class="card">
       
       <h3>{{ item.nome }}</h3>
@@ -34,6 +34,7 @@ export default {
 
     data() {
         return {
+            show: false,
             coupons: [
 
             {
@@ -46,17 +47,32 @@ export default {
         }
     },
     methods: {
+        showMessage() {
+          this.show = true;
+
+          if(this.show == true) {
+
+            setTimeout(() => {     
+               this.show = false; 
+            }, 4000)
+
+          }
+
+        },
         copiarCupom(cupom) {
             navigator.clipboard.writeText(cupom)
             .then(() => {
                 console.log('Cupom copiado:', cupom);
-                alert('Cupom copiado! ✅');
+                if(this.show == false) {
+                  this.showMessage();
+                }                 
             })
             .catch(err => {
                 console.error('Erro ao copiar:', err);
             });
         }
-    }
+    },
+
 }
 </script>
 
@@ -110,6 +126,35 @@ strong:hover, a:hover {
     width: 90%;
    } 
 }
+
+
+span {
+  background-color: var(--color-1);
+  color: var(--color-7);
+  width: 150px;
+  text-align: center;
+  opacity: 1;
+  border-radius: 4px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: message-animation 3s ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  z-index: 99;
+}
+
+@keyframes message-animation {
+  0%{
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 
   
 </style>

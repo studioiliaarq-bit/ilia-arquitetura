@@ -310,6 +310,24 @@ export default {
             require('@/assets/peonia/8.webp'),
           ],
         },
+        {
+          name: 'Cozinha',
+          description: '',
+          dayAndNight: false,
+          thumbnail: require('@/assets/cozinha/capa.webp'),
+          imagesDay: [
+            require('@/assets/cozinha/1.webp'),
+            require('@/assets/cozinha/2.webp'),
+            require('@/assets/cozinha/3.webp'),
+            require('@/assets/cozinha/4.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/cozinha/1.webp'),
+            require('@/assets/cozinha/2.webp'),
+            require('@/assets/cozinha/3.webp'),
+            require('@/assets/cozinha/4.webp'),
+          ],
+        },
 
 
 

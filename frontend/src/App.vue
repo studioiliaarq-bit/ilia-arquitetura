@@ -20,8 +20,9 @@ export default {
   },
   data() {
     return {    
+      
       affaridev: 'https://affari.vercel.app/',
-      whatsapp: 'https://api.whatsapp.com/send?phone=5582988777687', 
+      whatsapp: 'https://api.whatsapp.com/message/JNZUB4NIQUDLM1?autoload=1&app_absent=0', 
       instagram: 'https://www.instagram.com/studioilia.arq/',
       tiktok: 'https://www.tiktok.com/@studioiliaarq',     
       site: 'https://www.iliaarquitetura.com.br/', 
@@ -80,22 +81,26 @@ export default {
       ) {
         e.preventDefault();
       }
-    }
+    }, 
+    
   },
-
+  
   mounted() {
     this.checkDevice();
-    window.addEventListener("resize", this.checkDevice);
+   window.addEventListener("resize", this.checkDevice);
 
     document.addEventListener('contextmenu', this.blockClickRight);
-    document.addEventListener('keydown', this.blockShortcuts);
+    document.addEventListener('keydown', this.blockShortcuts); 
+
+    
   },
 
   beforeUnmount() {
-    window.removeEventListener("resize", this.checkDevice);
+     window.removeEventListener("resize", this.checkDevice);
 
      document.removeEventListener('contextmenu', this.blockClickRight);
-     document.removeEventListener('keydown', this.blockShortcuts);
+     document.removeEventListener('keydown', this.blockShortcuts);    
+  
   },
   
 }
@@ -148,6 +153,7 @@ export default {
   --color-6: #B0C39D;
   --color-7: #fff;
   --color-8: #141414;
+  --color-9: #7596ae;
 }
 
  h1, h2, h3, h4 {  

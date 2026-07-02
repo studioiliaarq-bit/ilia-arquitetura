@@ -56,7 +56,7 @@ export default {
       const isMobile = window.innerWidth <= 768;
 
       if (isMobile) {
-        this.whatsapp = 'https://api.whatsapp.com/message/JNZUB4NIQUDLM1?autoload=1&app_absent=0';
+        this.whatsapp = 'https://wa.me/558293318909';
       }
     },
 

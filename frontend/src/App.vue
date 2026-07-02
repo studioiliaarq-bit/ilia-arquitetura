@@ -22,7 +22,7 @@ export default {
     return {    
       
       affaridev: 'https://affari.vercel.app/',
-      whatsapp: 'https://api.whatsapp.com/message/JNZUB4NIQUDLM1?autoload=1&app_absent=0', 
+      whatsapp: 'https://wa.me/558293318909', 
       instagram: 'https://www.instagram.com/studioilia.arq/',
       tiktok: 'https://www.tiktok.com/@studioiliaarq',     
       site: 'https://www.iliaarquitetura.com.br/', 

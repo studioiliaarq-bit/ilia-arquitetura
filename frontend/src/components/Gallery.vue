@@ -327,6 +327,9 @@ export default {
             require('@/assets/apartamento/9.webp'),
             require('@/assets/apartamento/10.webp'),
             require('@/assets/apartamento/11.webp'),
+            require('@/assets/apartamento/12.webp'),
+            require('@/assets/apartamento/13.webp'),
+            require('@/assets/apartamento/14.webp'),
           ],
           imagesNight: [
             require('@/assets/apartamento/1.webp'),
@@ -340,6 +343,9 @@ export default {
             require('@/assets/apartamento/9.webp'),
             require('@/assets/apartamento/10.webp'),
             require('@/assets/apartamento/11.webp'),
+            require('@/assets/apartamento/12.webp'),
+            require('@/assets/apartamento/13.webp'),
+            require('@/assets/apartamento/14.webp'),
           ],
         },
 

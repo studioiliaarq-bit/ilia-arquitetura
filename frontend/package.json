@@ -2,6 +2,9 @@
   "name": "studioiliaarquitetura",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "serve": "vue-cli-service serve --host 0.0.0.0",
     "build": "vue-cli-service build"
@@ -13,7 +16,8 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "typescript": "^6.0.2"
   },
   "type": "module"
 }

@@ -28,11 +28,18 @@ const routes = [
       return import('../views/LinksView.vue')
     }
   },
-    {
+  {
     path: '/cupons',
     name: 'cupons', 
     component: function () {
       return import('../views/CouponsView.vue')
+    }
+  },
+  {
+    path: '/consultoria',
+    name: 'consultoria', 
+    component: function () {
+      return import('../views/ConsultancyView.vue')
     }
   },
 ]

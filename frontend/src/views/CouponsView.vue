@@ -2,7 +2,7 @@
   <div id="container-coupons">  
      <div id="box-polygon">   
       <PolygonAnimation />      
-    </div>
+     </div>
     <Coupons />
     <Footer />
   </div>
@@ -67,7 +67,6 @@ export default {
   z-index: 100;
 
 }
-
 
   
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <header id="header" class="d-flex justify-content-between align-items-center">         
+  <header id="header" :class="{'header-consultancy': $route.name === 'consultoria', 'header': $route.name !== 'consultoria'}"  class="d-flex justify-content-between align-items-center">         
      <router-link to="/"><img class="m-3 mt-0 mb-0 m-lg-5 mt-lg-0 mb-lg-0" src="../assets/logo.webp" alt="logo"></router-link>
       <svg @click="toggleMenu" id="close" v-if="showClose" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-x-lg d-lg-none m-3" viewBox="0 0 16 16">
           <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
@@ -39,6 +39,7 @@ export default {
     },
   },
   methods: {
+    
     updateScreenSize() {
       this.screenWidth = window.innerWidth;              
     },
@@ -65,6 +66,7 @@ export default {
   beforeUnmount() {
     window.removeEventListener('resize', this.updateScreenSize);
   },
+
 }
 </script>  
 
@@ -75,7 +77,7 @@ export default {
     background-color: var(--color-1);
   }
    
-  #header {
+  .header {
     width: 100%;
     background-color: var(--color-1);  
     opacity: 0.95;  
@@ -84,6 +86,30 @@ export default {
     top: 0%;
     z-index: 99;
   }
+
+  .header-consultancy {
+    width: 100%;
+    background-color: var(--color-1);  
+    opacity: 0.95;  
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 99;
+    animation: colorTransition 2s ease-in;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes colorTransition {
+
+    0% {
+      background-color: var(--color-1); 
+    }
+
+    100% {
+      background-color: var(--color-9);  
+    }
+}
 
   #header img {
     width: 200px;

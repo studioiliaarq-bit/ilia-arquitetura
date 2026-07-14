@@ -4,7 +4,8 @@
       <router-link to="/" @click="closeMenu"><li class="m-2 m-md-0">Inicio</li></router-link>  
       <router-link to="/projetos" @click="closeMenu"><li class="m-2 m-md-0 mx-lg-4">Projetos</li></router-link> 
       <li @click="scrollToAbout">Sobre</li>   
-      <a class="m-2 m-md-0 mx-lg-4" @click="closeMenu" :href="whatsappLink()" target="_blank"><li>Quero um projeto</li></a>
+      <router-link to="/consultoria" @click="closeMenu"><li class="m-2 m-md-0 mx-lg-4">Consultoria</li></router-link>
+      <a class="m-2 m-md-0" @click="closeMenu" :href="whatsappLink()" target="_blank"><li>Quero um projeto</li></a>
     </ul>            
   </nav>  
 </template>
@@ -15,9 +16,15 @@ import { nextTick } from "vue";
 
 export default {
   name: 'Nav',
-  inject: ['whatsappLink'], 
+  inject: ['whatsappLink'],
 
+  data() {
+    return {    
+     
+    };
+  },
   methods: { 
+
 
     emitToggleScroll() { 
       this.$emit('toggle-menu'); 
@@ -43,6 +50,8 @@ export default {
     }
 
     },
+
+ 
 
 }
 </script>   

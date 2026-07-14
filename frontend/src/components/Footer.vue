@@ -1,5 +1,5 @@
 <template>
-    <footer id="footer" class="pt-1 pb-1 text-center">
+    <footer id="footer" :class="{ 'footer-consultancy': $route.name === 'consultoria' }" class="footer pt-1 pb-1 text-center">
         
     </footer>
 </template>
@@ -30,10 +30,17 @@
 
 <style scoped>
 
-  #footer {
+  .footer {
     background-color: var(--color-1);        
     border-top: solid 2px var(--color-5);    
     text-transform: uppercase;
     font-size: 0.8rem;
   } 
+
+  .footer-consultancy {
+    background-color: var(--color-9);        
+    border-top: solid 2px var(--color-5);    
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
 </style>

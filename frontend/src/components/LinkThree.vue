@@ -22,7 +22,15 @@
           <button>
           Cupons
          </button>
-       </a>           
+       </a>    
+       
+        <a :href="storeLink()" id="link-4" target="_blank" class="my-3">
+          <button>
+          Lojinha Tok&Stok
+         </button>
+       </a>  
+
+       
 
     </div> 
 
@@ -35,7 +43,7 @@ import PolygonAnimation from '@/components/PolygonAnimation.vue';
 
 export default {
   name: 'LinkThree',
-  inject: ['whatsappLink', 'instagramLink', 'tiktokLink', 'siteLink', 'couponPagesLink'], 
+  inject: ['whatsappLink', 'instagramLink', 'tiktokLink', 'siteLink', 'couponPagesLink', 'storeLink'], 
   
   components: {    
     PolygonAnimation, 

@@ -28,6 +28,7 @@ export default {
       site: 'https://www.iliaarquitetura.com.br/', 
       email: 'mailto:studioilia.arq@gmail.com?subject=Contato pelo site&body=Olá, gostaria de fazer um orçamento.',
       couponpages: 'https://www.iliaarquitetura.com.br/cupons',
+      store: 'https://mais.app/BGQAHJ',
     };
   },
   provide() {
@@ -39,6 +40,7 @@ export default {
       siteLink: () => this.site,
       emailLink: () => this.email,
       couponPagesLink: () => this.couponpages,
+      storeLink: () => this.store,
     }
   },
   methods: {
@@ -67,7 +69,7 @@ export default {
     blockShortcuts(e) {
 
       if (e.key === 'F12') {
-        e.preventDefault();
+       // e.preventDefault();
       }
 
       if (e.ctrlKey && e.key.toLowerCase() === 'u') {

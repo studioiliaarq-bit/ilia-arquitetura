@@ -24,7 +24,7 @@
          </button>
        </a>    
        
-        <a :href="storeLink()" id="link-4" target="_blank" class="my-3">
+        <a :href="storeLink()" id="link-5" target="_blank" class="my-3">
           <button>
           Lojinha Tok&Stok
          </button>
@@ -104,7 +104,8 @@ export default {
 #link-1, 
 #link-2,
 #link-3,
-#link-4 {
+#link-4,
+#link-5 {
   animation: opacity 0.5s ease-in;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -126,6 +127,10 @@ export default {
 
 #link-4 {
   animation-delay: 2s;
+}
+
+#link-5 {
+  animation-delay: 2.5s;
 }
 
 @keyframes opacity {

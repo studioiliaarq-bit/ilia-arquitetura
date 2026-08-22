@@ -348,6 +348,36 @@ export default {
             require('@/assets/apartamento/14.webp'),
           ],
         },
+         {
+          name: 'Quarto casal',
+          description: '',
+          dayAndNight: false,
+          thumbnail: require('@/assets/quarto-casal/capa.webp'),
+          imagesDay: [
+            require('@/assets/quarto-casal/1.webp'),
+            require('@/assets/quarto-casal/2.webp'),
+            require('@/assets/quarto-casal/3.webp'),
+            require('@/assets/quarto-casal/4.webp'),
+            require('@/assets/quarto-casal/5.webp'),
+            require('@/assets/quarto-casal/6.webp'),
+            require('@/assets/quarto-casal/7.webp'),
+            require('@/assets/quarto-casal/8.webp'),
+            require('@/assets/quarto-casal/9.webp'),
+            require('@/assets/quarto-casal/10.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/quarto-casal/1.webp'),
+            require('@/assets/quarto-casal/2.webp'),
+            require('@/assets/quarto-casal/3.webp'),
+            require('@/assets/quarto-casal/4.webp'),
+            require('@/assets/quarto-casal/5.webp'),
+            require('@/assets/quarto-casal/6.webp'),
+            require('@/assets/quarto-casal/7.webp'),
+            require('@/assets/quarto-casal/8.webp'),
+            require('@/assets/quarto-casal/9.webp'),
+            require('@/assets/quarto-casal/10.webp'),
+          ],
+        },
 
 
 

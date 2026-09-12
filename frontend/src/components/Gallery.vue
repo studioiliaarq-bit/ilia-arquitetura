@@ -378,6 +378,32 @@ export default {
             require('@/assets/quarto-casal/10.webp'),
           ],
         },
+        {
+          name: 'Banheiro',
+          description: '',
+          dayAndNight: false,
+          thumbnail: require('@/assets/banheiro/capa.webp'),
+          imagesDay: [
+            require('@/assets/banheiro/1.webp'),
+            require('@/assets/banheiro/2.webp'),
+            require('@/assets/banheiro/3.webp'),
+            require('@/assets/banheiro/4.webp'),
+            require('@/assets/banheiro/5.webp'),
+            require('@/assets/banheiro/6.webp'),
+            require('@/assets/banheiro/7.webp'),
+            require('@/assets/banheiro/8.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/banheiro/1.webp'),
+            require('@/assets/banheiro/2.webp'),
+            require('@/assets/banheiro/3.webp'),
+            require('@/assets/banheiro/4.webp'),
+            require('@/assets/banheiro/5.webp'),
+            require('@/assets/banheiro/6.webp'),
+            require('@/assets/banheiro/7.webp'),
+            require('@/assets/banheiro/8.webp'),
+          ],
+        },
 
 
 

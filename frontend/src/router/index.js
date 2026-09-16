@@ -42,6 +42,13 @@ const routes = [
       return import('../views/ConsultancyView.vue')
     }
   },
+  {
+    path: '/vagas',
+    name: 'vagas', 
+    component: function () {
+      return import('../views/JobOpeningsView.vue')
+    }
+  },
 ]
 
 const router = createRouter({

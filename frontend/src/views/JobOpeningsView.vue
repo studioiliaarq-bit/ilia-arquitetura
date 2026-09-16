@@ -60,23 +60,27 @@ import Contacts from '@/components/Contacts.vue';
 
 export default {
   name: 'Jobs',
+
   components: {
-    Contacts,     
-    Footer,  
+    Contacts,
+    Footer,
+  },
+
+  mounted() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   },
 
   methods: {
     redirectToLink() {
-        
-        setTimeout(() => {
-            window.location.href = 'https://www.iliaarquitetura.com.br/';
-        }, 3000)
+      setTimeout(() => {
+        window.location.href = 'https://www.iliaarquitetura.com.br/';
+      }, 3000);
     }
-  }  
-
+  }
 }
-
-
 </script>
 
 

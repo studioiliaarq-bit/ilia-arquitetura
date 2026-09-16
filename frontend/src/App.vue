@@ -249,9 +249,4 @@ li:hover, a:hover, button:hover {
       }
   }
 
-
-
-  
-
-
 </style>

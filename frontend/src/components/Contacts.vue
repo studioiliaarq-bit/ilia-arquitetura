@@ -8,6 +8,7 @@
             <h3 class="fs-5 mt-3 mt-lg-0">Quero um projeto</h3>
             <!--<router-link to="/formulario" class="mt-3">Solicitar orçamento</router-link>-->
             <a :href="whatsappLink()"  class="mt-3" target="_blank">Solicitar orçamento</a>
+            <router-link to="/vagas" class="mt-3">Trabalhe conosco</router-link>
             <span class="mt-3">CAU nº A325216-7</span>
 
             <div class="mt-5 d-none d-lg-block">

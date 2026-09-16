@@ -49,16 +49,19 @@
    
 
     </div>
+     <Contacts />
      <Footer />
    
 </template>
 
 <script>
 import Footer from '@/components/Footer.vue';
+import Contacts from '@/components/Contacts.vue';
 
 export default {
   name: 'Jobs',
-  components: {     
+  components: {
+    Contacts,     
     Footer,  
   },
 

@@ -404,6 +404,28 @@ export default {
             require('@/assets/banheiro/8.webp'),
           ],
         },
+        {
+          name: 'Arquitetonico',
+          description: '',
+          dayAndNight: false,
+          thumbnail: require('@/assets/arquitetonico/capa.webp'),
+          imagesDay: [
+            require('@/assets/arquitetonico/1.webp'),
+            require('@/assets/arquitetonico/2.webp'),
+            require('@/assets/arquitetonico/3.webp'),
+            require('@/assets/arquitetonico/4.webp'),
+            require('@/assets/arquitetonico/5.webp'),
+            require('@/assets/arquitetonico/6.webp'),
+          ],
+          imagesNight: [
+            require('@/assets/arquitetonico/1.webp'),
+            require('@/assets/arquitetonico/2.webp'),
+            require('@/assets/arquitetonico/3.webp'),
+            require('@/assets/arquitetonico/4.webp'),
+            require('@/assets/arquitetonico/5.webp'),
+            require('@/assets/arquitetonico/6.webp'),
+          ],
+        },
 
 
 

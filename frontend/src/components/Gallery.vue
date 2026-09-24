@@ -405,7 +405,7 @@ export default {
           ],
         },
         {
-          name: 'Arquitetonico',
+          name: 'Arquitetônico',
           description: '',
           dayAndNight: false,
           thumbnail: require('@/assets/arquitetonico/capa.webp'),

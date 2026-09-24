@@ -405,7 +405,7 @@ export default {
           ],
         },
         {
-          name: 'Arquitetônico',
+          name: 'Casa claraboia',
           description: '',
           dayAndNight: false,
           thumbnail: require('@/assets/arquitetonico/capa.webp'),

@@ -29,7 +29,7 @@
 
         <p>
           Para saber mais sobre como seus dados são tratados, consulte nossa
-          <router-link to="/">
+          <router-link to="">
             Política de Privacidade
           </router-link>
         </p>

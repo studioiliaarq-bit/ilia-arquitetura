@@ -49,6 +49,7 @@
    
 
     </div>
+     <CookieConsent />
      <Contacts />
      <Footer />
    
@@ -57,6 +58,7 @@
 <script>
 import Footer from '@/components/Footer.vue';
 import Contacts from '@/components/Contacts.vue';
+import CookieConsent from '@/components/CookieConsent.vue';
 
 export default {
   name: 'Jobs',
@@ -64,6 +66,7 @@ export default {
   components: {
     Contacts,
     Footer,
+    CookieConsent,
   },
 
   mounted() {

@@ -113,7 +113,7 @@
 
         <div>
           <span>Ambiente único</span>
-          <span>R$ 500</span>
+          <span>R$ 650</span>
         </div>
         <div>
           <span>Dois ambientes integrados</span>
